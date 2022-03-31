@@ -7,7 +7,6 @@ import { useEffect, useState } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-
 import photo from "../../images/pic.card.png";
 
 export default function SlideSystems() {

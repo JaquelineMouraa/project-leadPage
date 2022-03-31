@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const Container = styled.div`
   background: var(--grayLigth);
   height: 30rem;
+  width: auto;
 `;
 
 export const Content = styled.div`
@@ -12,12 +13,6 @@ export const Content = styled.div`
   align-items: center;
   flex-direction: column;
   opacity: 0.3;
-`;
-
-export const Image = styled.img`
-  width: 2.1rem;
-  height: 0.5rem;
-  margin: 1rem 0 0.5rem 0;
 `;
 
 export const Infos = styled.div`
@@ -38,4 +33,14 @@ export const Div = styled.div`
 
 export const Details = styled.p`
   margin-left: 10px;
+`;
+
+export const ContainerSlider = styled.div`
+  width: 100%;
+  height: 100%;
+`;
+
+export const Image = styled.img`
+  width: 100%;
+  height: 100%;
 `;

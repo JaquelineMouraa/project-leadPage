@@ -2,7 +2,6 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   background: var(--navy);
-  /* height: 45rem; */
   height: 55rem;
   padding-top: 1rem;
 `;
