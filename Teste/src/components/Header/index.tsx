@@ -1,5 +1,6 @@
 import { Content, Infos, Div, Details } from "./styles";
 
+import Slider from "react-slick";
 import app from "../../services/api";
 import { useEffect, useState } from "react";
 import photo from "../../images/img1.jpeg";
@@ -11,6 +12,7 @@ import icon from "../../images/patt.png";
 import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore, { Navigation, Pagination, Controller, Thumbs } from "swiper";
 import "swiper/swiper-bundle.css";
+import SlideSis from "../SlideSis";
 SwiperCore.use([Navigation, Pagination, Controller, Thumbs]);
 
 export function Header() {
@@ -20,20 +22,20 @@ export function Header() {
   slides.push(
     <>
       <SwiperSlide key="teste" tag="li">
-        <img src={photo} style={{ width: "100%" }} alt="" />
+        <img src={photo} style={{ width: "100%" }} />
       </SwiperSlide>
       <SwiperSlide key="teste" tag="li">
-        <img src={photo} style={{ width: "100%" }} alt="" />
+        <img src={photo} style={{ width: "100%" }} />
       </SwiperSlide>
       <SwiperSlide key="teste" tag="li">
-        <img src={photo} style={{ width: "100%" }} alt="" />
+        <img src={photo} style={{ width: "100%" }} />
       </SwiperSlide>
 
       <SwiperSlide key="teste" tag="li">
-        <img src={photo} style={{ width: "100%" }} alt="" />
+        <img src={photo} style={{ width: "100%" }} />
       </SwiperSlide>
       <SwiperSlide key="teste" tag="li">
-        <img src={photo} style={{ width: "100%" }} alt="" />
+        <img src={photo} style={{ width: "100%" }} />
       </SwiperSlide>
     </>
   );
@@ -65,7 +67,7 @@ export function Header() {
           </Div>
         </Infos>
 
-        <img src={icon} alt="" />
+        <img src={icon} />
       </Content>
 
       <Swiper
@@ -86,7 +88,7 @@ export function Header() {
         {slides}
       </Swiper>
 
-{/* <SlideSis /> */}
+<SlideSis />
       <SlideNews />
     </>
   );
