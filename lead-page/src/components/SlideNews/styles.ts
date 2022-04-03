@@ -2,8 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   background: var(--navy);
-  height: 55rem;
-  padding-top: 1rem;
+  height: 40rem;
 `;
 
 export const Header = styled.div`
@@ -26,11 +25,11 @@ export const Title = styled.h3`
 export const Details = styled.p`
   font-size: 10px;
   margin-top: 0.3rem;
-  color: var(--white);
+  color: var(--gray);
 `;
 
 export const Div = styled.div`
-  width: 62%;
+  width: 800px;
+  margin-left: 280px;
   margin-top: 2.4rem;
-  justify-content: space-between;
 `;

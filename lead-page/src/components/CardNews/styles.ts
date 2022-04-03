@@ -2,9 +2,10 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   background: var(--white);
-  height: 22rem;
-  width: 18rem;
+  height: 18rem;
+  width: 15rem;
   border-radius: 0.5rem;
+  position: relative;
 `;
 
 export const Content = styled.div`
@@ -13,7 +14,7 @@ export const Content = styled.div`
 `;
 
 export const Image = styled.img`
-  height: 100%;
+  height: 10rem;
   width: 100%;
   border-radius: 0.5rem 0.5rem 0 0;
 `;
@@ -33,9 +34,11 @@ export const Details = styled.p`
 `;
 
 export const Data = styled.p`
-color: var(--gray);
-  font-size: 8px;
-  display: flex;
-  
+  color: var(--gray);
+  font-size: 10px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 0 1.5rem 1rem 1.5rem;
 `;
 

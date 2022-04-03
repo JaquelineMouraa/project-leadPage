@@ -1,4 +1,4 @@
-import { Container, Image, Title, Header, Details, Div } from "./styles";
+import { Container, Image, Title, Header, Details, Div  } from "./styles";
 import app from "../../services/api";
 import icon from "../../images/patt.png";
 import CardSystems from "../CardSystems";
@@ -18,6 +18,8 @@ export default function SlideSystems() {
     speed: 500,
     slidesToShow: 3,
     slidesToScroll: 1,
+    centerMode: true,
+    centerPadding:  "0px",
   };
 
   useEffect(() => {
@@ -42,9 +44,9 @@ export default function SlideSystems() {
         </Details>
       </Header>
       <Div>
-        <Slider {...settings}>
+        <Slider {...settings} >
           {loadData?.map((item: any) => {
-            return <CardSystems key='CardSystem' title={item?.title} details={item?.body} image={photo} />;
+            return <CardSystems key='CardSystem' title=" Card system" details="bodybodybodybodybody" image={photo} />;
           })}
         </Slider>
       </Div>

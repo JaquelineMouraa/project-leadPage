@@ -21,7 +21,7 @@ export const Content = styled.div`
 export const Infos = styled.div`
   height: 3rem;
   width: 70%;
-  font-size: 8px;
+  font-size: 10px;
   display: flex;
   justify-content: space-between;
   color: var(--grayLigth);

@@ -9,6 +9,7 @@ export const Header = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 2.4rem;
 `;
 
 export const Image = styled.img`
@@ -28,7 +29,14 @@ export const Details = styled.p`
 `;
 
 export const Div = styled.div`
-  width: 60%;
-  margin-left: 20%;
+  width: 650px;
+  margin-left: 350px;
   margin-top: 2.4rem;
+  
+  .slick-prev:before,
+  .slick-next:before {
+    color: var(--orange);
+    font-size:  30px;
+    margin: 0 auto;
+  }
 `;

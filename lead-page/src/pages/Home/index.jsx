@@ -11,7 +11,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import SlideSystems from "../../components/SlideSystems";
 import SwiperCore, { Navigation, Pagination, Controller, Thumbs } from "swiper";
 import "swiper/swiper-bundle.css";
-import SlideSy from "../../components/SlideSy";
+import SlideSy from "../../components/SlideNews";
 SwiperCore.use([Navigation, Pagination, Controller, Thumbs]);
 
 export function Home() {
@@ -90,7 +90,6 @@ export function Home() {
 
       <SlideSystems />
       <SlideSy />
-
     </>
   );
 }
