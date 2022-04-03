@@ -9,7 +9,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import photo from "../../images/pic.card.png";
 
-export default function SlideSystems() {
+export default function SlideSy() {
   const [loadData, setLoadData] = useState([]);
 
   const settings = {
