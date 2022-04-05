@@ -34,10 +34,7 @@ export default function SlideNews() {
     <Container>
       <Header>
         <Image src={icon}></Image>
-        <Title>
-          {" "}
-          Nossos <strong>Sistemas</strong>
-        </Title>
+        <Title>Novidades</Title>
         <Details>
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry.
@@ -45,8 +42,7 @@ export default function SlideNews() {
       </Header>
       <Div>
         <Slider {...settings}>
-
-        <CardNews
+          <CardNews
             key=""
             image={photo}
             title="Titulo 1"
@@ -54,7 +50,7 @@ export default function SlideNews() {
             date="31.12.2022"
           />
 
-<CardNews
+          <CardNews
             key=""
             image={photo}
             title="Titulo 1"
@@ -62,7 +58,7 @@ export default function SlideNews() {
             date="31.12.2022"
           />
 
-<CardNews
+          <CardNews
             key=""
             image={photo}
             title="Titulo 1"
@@ -70,7 +66,7 @@ export default function SlideNews() {
             date="31.12.2022"
           />
 
-<CardNews
+          <CardNews
             key=""
             image={photo}
             title="Titulo 1"
@@ -78,7 +74,7 @@ export default function SlideNews() {
             date="31.12.2022"
           />
 
-<CardNews
+          <CardNews
             key=""
             image={photo}
             title="Titulo 1"
@@ -86,7 +82,7 @@ export default function SlideNews() {
             date="31.12.2022"
           />
 
-<CardNews
+          <CardNews
             key=""
             image={photo}
             title="Titulo 1"
@@ -94,14 +90,13 @@ export default function SlideNews() {
             date="31.12.2022"
           />
 
-<CardNews
+          <CardNews
             key=""
             image={photo}
             title="Titulo 1"
             details="Detalhes DetalhesDetalhes Detalhes Detalhes DetalhesDetalhesDetalhes"
             date="31.12.2022"
           />
-
         </Slider>
       </Div>
     </Container>

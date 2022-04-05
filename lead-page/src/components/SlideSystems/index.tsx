@@ -45,9 +45,13 @@ export default function SlideSystems() {
       </Header>
       <Div>
         <Slider {...settings} >
-          {loadData?.map((item: any) => {
+          {/* {loadData?.map((item: any) => {
             return <CardSystems key='CardSystem' title=" Card system" details="bodybodybodybodybody" image={photo} />;
-          })}
+          })} */}
+          <CardSystems key='CardSystem' title=" Card system" details="bodybodybodybodybody" image={photo} />
+          <CardSystems key='CardSystem' title=" Card system" details="bodybodybodybodybody" image={photo} />
+          <CardSystems key='CardSystem' title=" Card system" details="bodybodybodybodybody" image={photo} />
+          <CardSystems key='CardSystem' title=" Card system" details="bodybodybodybodybody" image={photo} />
         </Slider>
       </Div>
     </Container>
